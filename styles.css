@@ -1,0 +1,38 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h1, h2{
+    text-align: center;
+}
+.recipes{
+    line-height: 50px;
+}
+.recipe a{
+    color: rgb(135, 1, 1);
+}
+.recipes .first-recipe a{
+    color: rgb(106, 167, 167);
+}
+ul .second-recipe a{
+    color: rgb(66, 51, 104);
+}
+/*three recipes*/
+.image {
+    width: 350px ;
+    height: auto;
+}
+
+body > p{
+    text-align: center;
+}
+
+.ingredients {
+    color: brown;
+}
+.ingredients > li:first-child , .ingredients > li:nth-child(3){
+    color: rgb(71, 22, 117);
+}
+.lasagna > li:last-child{
+    color: rgb(71, 22, 117);
+}
